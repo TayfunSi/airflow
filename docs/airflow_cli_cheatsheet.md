@@ -1,6 +1,6 @@
 # 🧠 Airflow CLI Cheat-Sheet
 
-## 🚀 Start & Stop
+## 🚀 Start & Stop & DAG Update
 
 ```bash
 # Starte den Scheduler (führt DAGs aus)
@@ -9,12 +9,26 @@ airflow scheduler
 # Starte den Webserver (für UI-Zugriff, standardmäßig unter http://localhost:8080)
 airflow webserver -p 8080
 
+# DAG-Dateien neu parsen (z. B. nach Änderungen)
+airflow dags reserialize
+
 # Stoppe Webserver/Scheduler via Ctrl+C oder per Prozessbeendigung (siehe unten)
 # Anschließend
 # Beende alle laufenden Airflow-Prozesse (Webserver, Scheduler, etc.)
 pkill -f airflow
+```
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 ## 🔧 Initial Setup
 
