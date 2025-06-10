@@ -1,0 +1,14 @@
+[2025-06-10T15:01:36.541+0200] {processor.py:161} INFO - Started process (PID=19959) to work on /Users/tsimsek/airflow_project/airflow_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-10T15:01:36.542+0200] {processor.py:830} INFO - Processing file /Users/tsimsek/airflow_project/airflow_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-10T15:01:36.543+0200] {logging_mixin.py:188} INFO - [2025-06-10T15:01:36.543+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/tsimsek/airflow_project/airflow_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-10T15:01:36.558+0200] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/tsimsek/airflow_project/airflow_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-10T15:01:36.679+0200] {logging_mixin.py:188} INFO - [2025-06-10T15:01:36.678+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-10T15:01:36.682+0200] {logging_mixin.py:188} INFO - [2025-06-10T15:01:36.682+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-10T15:01:36.689+0200] {processor.py:183} INFO - Processing /Users/tsimsek/airflow_project/airflow_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.157 seconds
+[2025-06-10T15:02:44.377+0200] {processor.py:161} INFO - Started process (PID=20410) to work on /Users/tsimsek/airflow_project/airflow_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-10T15:02:44.378+0200] {processor.py:830} INFO - Processing file /Users/tsimsek/airflow_project/airflow_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-10T15:02:44.379+0200] {logging_mixin.py:188} INFO - [2025-06-10T15:02:44.379+0200] {dagbag.py:545} INFO - Filling up the DagBag from /Users/tsimsek/airflow_project/airflow_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-10T15:02:44.395+0200] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/tsimsek/airflow_project/airflow_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-10T15:02:44.454+0200] {logging_mixin.py:188} INFO - [2025-06-10T15:02:44.454+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-10T15:02:44.457+0200] {logging_mixin.py:188} INFO - [2025-06-10T15:02:44.457+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-10T15:02:44.467+0200] {processor.py:183} INFO - Processing /Users/tsimsek/airflow_project/airflow_env/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.097 seconds

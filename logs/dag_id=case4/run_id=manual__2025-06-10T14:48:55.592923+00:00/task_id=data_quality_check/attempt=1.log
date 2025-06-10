@@ -1,0 +1,20 @@
+[2025-06-10T16:49:04.166+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-06-10T16:49:04.170+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: case4.data_quality_check manual__2025-06-10T14:48:55.592923+00:00 [queued]>
+[2025-06-10T16:49:04.173+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: case4.data_quality_check manual__2025-06-10T14:48:55.592923+00:00 [queued]>
+[2025-06-10T16:49:04.173+0200] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-06-10T16:49:04.177+0200] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): data_quality_check> on 2025-06-10 14:48:55.592923+00:00
+[2025-06-10T16:49:04.180+0200] {standard_task_runner.py:72} INFO - Started process 46809 to run task
+[2025-06-10T16:49:04.182+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'case4', 'data_quality_check', 'manual__2025-06-10T14:48:55.592923+00:00', '--job-id', '59', '--raw', '--subdir', 'DAGS_FOLDER/case4.py', '--cfg-path', '/var/folders/sj/kmk_wl3517d377606n_z382h0000gp/T/tmpbp27ah3c']
+[2025-06-10T16:49:04.184+0200] {standard_task_runner.py:105} INFO - Job 59: Subtask data_quality_check
+[2025-06-10T16:49:04.218+0200] {task_command.py:467} INFO - Running <TaskInstance: case4.data_quality_check manual__2025-06-10T14:48:55.592923+00:00 [running]> on host LGLXN9TVJX
+[2025-06-10T16:49:04.238+0200] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='tayfun.simsek@mhp.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='case4' AIRFLOW_CTX_TASK_ID='data_quality_check' AIRFLOW_CTX_EXECUTION_DATE='2025-06-10T14:48:55.592923+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-10T14:48:55.592923+00:00'
+[2025-06-10T16:49:04.239+0200] {taskinstance.py:732} INFO - ::endgroup::
+[2025-06-10T16:49:04.248+0200] {logging_mixin.py:190} WARNING - /Users/tsimsek/Library/Python/3.9/lib/python/site-packages/airflow/utils/operator_helpers.py:175 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2025-06-10T16:49:04.293+0200] {logging_mixin.py:190} INFO - ✅ Datenqualität Check - Gesamtzeilen: 0
+[2025-06-10T16:49:04.294+0200] {logging_mixin.py:190} INFO - Nullwerte je Spalte: {'VendorID': 0, 'tpep_pickup_datetime': 0, 'tpep_dropoff_datetime': 0, 'passenger_count': 0, 'trip_distance': 0, 'RatecodeID': 0, 'store_and_fwd_flag': 0, 'PULocationID': 0, 'DOLocationID': 0, 'payment_type': 0, 'fare_amount': 0, 'extra': 0, 'mta_tax': 0, 'tip_amount': 0, 'tolls_amount': 0, 'improvement_surcharge': 0, 'total_amount': 0, 'congestion_surcharge': 0, 'Airport_fee': 0, 'PUBorough': 0, 'PUZone': 0, 'DOBorough': 0, 'DOZone': 0}
+[2025-06-10T16:49:04.294+0200] {python.py:240} INFO - Done. Returned value was: None
+[2025-06-10T16:49:04.298+0200] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-06-10T16:49:04.299+0200] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=case4, task_id=data_quality_check, run_id=manual__2025-06-10T14:48:55.592923+00:00, execution_date=20250610T144855, start_date=20250610T144904, end_date=20250610T144904
+[2025-06-10T16:49:04.319+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-06-10T16:49:04.328+0200] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-06-10T16:49:04.329+0200] {local_task_job_runner.py:245} INFO - ::endgroup::

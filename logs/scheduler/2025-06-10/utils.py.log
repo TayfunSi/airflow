@@ -1,0 +1,318 @@
+[2025-06-10T15:14:18.671+0200] {processor.py:186} INFO - Started process (PID=24274) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:14:18.673+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:14:18.673+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:14:18.673+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:14:19.097+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:14:19.152+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.489 seconds
+[2025-06-10T15:14:51.999+0200] {processor.py:186} INFO - Started process (PID=24367) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:14:52.000+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:14:52.001+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:14:52.001+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:14:52.293+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:14:52.359+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.368 seconds
+[2025-06-10T15:15:24.402+0200] {processor.py:186} INFO - Started process (PID=24474) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:15:24.404+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:15:24.404+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:15:24.404+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:15:24.745+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:15:24.805+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.412 seconds
+[2025-06-10T15:15:56.083+0200] {processor.py:186} INFO - Started process (PID=24575) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:15:56.085+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:15:56.085+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:15:56.085+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:15:56.424+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:15:56.486+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.410 seconds
+[2025-06-10T15:16:27.629+0200] {processor.py:186} INFO - Started process (PID=24658) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:16:27.630+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:16:27.631+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:16:27.631+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:16:28.089+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:16:28.149+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.530 seconds
+[2025-06-10T15:17:06.936+0200] {processor.py:186} INFO - Started process (PID=24824) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:17:06.937+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:17:06.938+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:17:06.938+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:17:07.319+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:17:07.375+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.449 seconds
+[2025-06-10T15:18:54.840+0200] {processor.py:186} INFO - Started process (PID=25277) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:18:54.842+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:18:54.842+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:18:54.842+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:18:55.270+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:18:55.329+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.498 seconds
+[2025-06-10T15:22:42.174+0200] {processor.py:186} INFO - Started process (PID=26863) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:22:42.176+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:22:42.177+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:22:42.177+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:22:42.524+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:22:42.581+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.415 seconds
+[2025-06-10T15:25:56.821+0200] {processor.py:186} INFO - Started process (PID=27496) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:25:56.823+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:25:56.824+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:25:56.823+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:25:57.163+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:25:57.224+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.410 seconds
+[2025-06-10T15:29:25.520+0200] {processor.py:186} INFO - Started process (PID=28258) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:29:25.522+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:29:25.523+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:29:25.522+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:29:26.038+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:29:26.099+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.586 seconds
+[2025-06-10T15:29:57.187+0200] {processor.py:186} INFO - Started process (PID=28362) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:29:57.189+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:29:57.190+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:29:57.189+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:29:57.559+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:29:57.621+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.443 seconds
+[2025-06-10T15:30:29.031+0200] {processor.py:186} INFO - Started process (PID=28448) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:30:29.033+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:30:29.034+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:30:29.033+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:30:29.354+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:30:29.415+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.392 seconds
+[2025-06-10T15:31:01.291+0200] {processor.py:186} INFO - Started process (PID=28541) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:31:01.292+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:31:01.293+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:31:01.293+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:31:01.592+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:31:01.653+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.371 seconds
+[2025-06-10T15:31:33.121+0200] {processor.py:186} INFO - Started process (PID=28630) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:31:33.123+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:31:33.123+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:31:33.123+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:31:33.517+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:31:33.575+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.464 seconds
+[2025-06-10T15:32:04.975+0200] {processor.py:186} INFO - Started process (PID=28713) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:32:04.977+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:32:04.977+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:32:04.977+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:32:05.364+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:32:05.425+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.459 seconds
+[2025-06-10T15:32:37.485+0200] {processor.py:186} INFO - Started process (PID=28805) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:32:37.487+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:32:37.488+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:32:37.488+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:32:37.832+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:32:37.890+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.413 seconds
+[2025-06-10T15:33:09.343+0200] {processor.py:186} INFO - Started process (PID=28882) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:33:09.345+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:33:09.345+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:33:09.345+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:33:09.765+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:33:09.828+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.493 seconds
+[2025-06-10T15:33:41.055+0200] {processor.py:186} INFO - Started process (PID=28975) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:33:41.057+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:33:41.057+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:33:41.057+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:33:41.411+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:33:41.466+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.417 seconds
+[2025-06-10T15:34:12.918+0200] {processor.py:186} INFO - Started process (PID=29078) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:34:12.919+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:34:12.920+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:34:12.920+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:34:13.390+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:34:13.446+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.533 seconds
+[2025-06-10T15:34:45.560+0200] {processor.py:186} INFO - Started process (PID=29161) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:34:45.562+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:34:45.563+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:34:45.563+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:34:45.977+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:34:46.034+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.481 seconds
+[2025-06-10T15:35:31.955+0200] {processor.py:186} INFO - Started process (PID=29427) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:35:31.957+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:35:31.957+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:35:31.957+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:35:32.377+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:35:32.438+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.492 seconds
+[2025-06-10T15:36:03.769+0200] {processor.py:186} INFO - Started process (PID=29573) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:36:03.771+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:36:03.771+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:36:03.771+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:36:04.071+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:36:04.129+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.368 seconds
+[2025-06-10T15:36:36.198+0200] {processor.py:186} INFO - Started process (PID=29663) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:36:36.200+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:36:36.201+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:36:36.200+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:36:36.509+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:36:36.567+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.376 seconds
+[2025-06-10T15:37:07.699+0200] {processor.py:186} INFO - Started process (PID=30017) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:37:07.701+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:37:07.701+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:37:07.701+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:37:08.042+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:37:08.099+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.407 seconds
+[2025-06-10T15:37:41.297+0200] {processor.py:186} INFO - Started process (PID=30612) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:37:41.299+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:37:41.299+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:37:41.299+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:37:41.597+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:37:41.656+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.367 seconds
+[2025-06-10T15:38:12.883+0200] {processor.py:186} INFO - Started process (PID=30705) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:38:12.885+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:38:12.885+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:38:12.885+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:38:13.183+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:38:13.245+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.369 seconds
+[2025-06-10T15:38:47.465+0200] {processor.py:186} INFO - Started process (PID=30813) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:38:47.467+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:38:47.467+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:38:47.467+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:38:47.761+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:38:47.820+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.363 seconds
+[2025-06-10T15:39:32.933+0200] {processor.py:186} INFO - Started process (PID=31123) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:39:32.935+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:39:32.936+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:39:32.936+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:39:33.248+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:39:33.308+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.383 seconds
+[2025-06-10T15:40:54.169+0200] {processor.py:186} INFO - Started process (PID=31508) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:40:54.203+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:40:54.203+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:40:54.203+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:40:54.511+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:40:54.569+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.406 seconds
+[2025-06-10T15:41:26.660+0200] {processor.py:186} INFO - Started process (PID=31671) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:41:26.662+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:41:26.663+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:41:26.663+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:41:26.981+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:41:27.041+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.389 seconds
+[2025-06-10T15:41:58.213+0200] {processor.py:186} INFO - Started process (PID=31758) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:41:58.215+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:41:58.215+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:41:58.215+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:41:58.638+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:41:58.695+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.492 seconds
+[2025-06-10T15:42:30.894+0200] {processor.py:186} INFO - Started process (PID=31880) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:42:30.896+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:42:30.896+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:42:30.896+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:42:31.297+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:42:31.356+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.470 seconds
+[2025-06-10T15:43:02.619+0200] {processor.py:186} INFO - Started process (PID=31963) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:43:02.620+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:43:02.621+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:43:02.621+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:43:02.963+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:43:03.028+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.418 seconds
+[2025-06-10T15:43:34.297+0200] {processor.py:186} INFO - Started process (PID=32076) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:43:34.298+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:43:34.299+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:43:34.299+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:43:34.642+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:43:34.697+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.409 seconds
+[2025-06-10T15:50:20.440+0200] {processor.py:186} INFO - Started process (PID=33181) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:50:20.442+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:50:20.442+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:50:20.442+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:50:20.804+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:50:20.860+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.426 seconds
+[2025-06-10T15:50:52.701+0200] {processor.py:186} INFO - Started process (PID=33331) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:50:52.703+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:50:52.703+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:50:52.703+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:50:53.030+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:50:53.095+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.402 seconds
+[2025-06-10T15:51:30.822+0200] {processor.py:186} INFO - Started process (PID=33418) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:51:30.836+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:51:30.837+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:51:30.837+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:51:32.294+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:51:32.420+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 1.617 seconds
+[2025-06-10T15:52:03.673+0200] {processor.py:186} INFO - Started process (PID=33549) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:52:03.674+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T15:52:03.675+0200] {logging_mixin.py:190} INFO - [2025-06-10T15:52:03.675+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:52:04.192+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T15:52:04.251+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.585 seconds
+[2025-06-10T16:37:28.731+0200] {processor.py:186} INFO - Started process (PID=42893) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:37:28.733+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T16:37:28.733+0200] {logging_mixin.py:190} INFO - [2025-06-10T16:37:28.733+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:37:29.071+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:37:29.129+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.406 seconds
+[2025-06-10T16:38:00.697+0200] {processor.py:186} INFO - Started process (PID=43006) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:38:00.699+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T16:38:00.699+0200] {logging_mixin.py:190} INFO - [2025-06-10T16:38:00.699+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:38:01.086+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:38:01.147+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.459 seconds
+[2025-06-10T16:38:37.432+0200] {processor.py:186} INFO - Started process (PID=43283) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:38:37.434+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T16:38:37.434+0200] {logging_mixin.py:190} INFO - [2025-06-10T16:38:37.434+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:38:37.983+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:38:38.042+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.616 seconds
+[2025-06-10T16:40:02.859+0200] {processor.py:186} INFO - Started process (PID=43756) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:40:02.861+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T16:40:02.861+0200] {logging_mixin.py:190} INFO - [2025-06-10T16:40:02.861+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:40:03.255+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:40:03.312+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.463 seconds
+[2025-06-10T16:40:34.753+0200] {processor.py:186} INFO - Started process (PID=43856) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:40:34.755+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T16:40:34.756+0200] {logging_mixin.py:190} INFO - [2025-06-10T16:40:34.756+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:40:35.160+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:40:35.217+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.473 seconds
+[2025-06-10T16:41:06.459+0200] {processor.py:186} INFO - Started process (PID=43960) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:41:06.461+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T16:41:06.462+0200] {logging_mixin.py:190} INFO - [2025-06-10T16:41:06.462+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:41:06.917+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:41:06.992+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.541 seconds
+[2025-06-10T16:41:39.775+0200] {processor.py:186} INFO - Started process (PID=44085) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:41:39.778+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T16:41:39.778+0200] {logging_mixin.py:190} INFO - [2025-06-10T16:41:39.778+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:41:40.170+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:41:40.231+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.466 seconds
+[2025-06-10T16:42:11.568+0200] {processor.py:186} INFO - Started process (PID=44231) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:42:11.570+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T16:42:11.570+0200] {logging_mixin.py:190} INFO - [2025-06-10T16:42:11.570+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:42:11.904+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:42:11.962+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.403 seconds
+[2025-06-10T16:42:22.456+0200] {processor.py:186} INFO - Started process (PID=44379) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:42:22.458+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T16:42:22.458+0200] {logging_mixin.py:190} INFO - [2025-06-10T16:42:22.458+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:42:23.004+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:42:23.065+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.617 seconds
+[2025-06-10T16:42:54.246+0200] {processor.py:186} INFO - Started process (PID=44531) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:42:54.247+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T16:42:54.248+0200] {logging_mixin.py:190} INFO - [2025-06-10T16:42:54.248+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:42:54.571+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:42:54.631+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.393 seconds
+[2025-06-10T16:43:26.147+0200] {processor.py:186} INFO - Started process (PID=44610) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:43:26.149+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T16:43:26.149+0200] {logging_mixin.py:190} INFO - [2025-06-10T16:43:26.149+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:43:26.568+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:43:26.627+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.487 seconds
+[2025-06-10T16:43:58.170+0200] {processor.py:186} INFO - Started process (PID=44742) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:43:58.172+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T16:43:58.172+0200] {logging_mixin.py:190} INFO - [2025-06-10T16:43:58.172+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:43:58.606+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:43:58.666+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.505 seconds
+[2025-06-10T16:44:30.173+0200] {processor.py:186} INFO - Started process (PID=44830) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:44:30.175+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T16:44:30.175+0200] {logging_mixin.py:190} INFO - [2025-06-10T16:44:30.175+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:44:30.684+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:44:30.744+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.579 seconds
+[2025-06-10T16:44:52.139+0200] {processor.py:186} INFO - Started process (PID=44914) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:44:52.141+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T16:44:52.141+0200] {logging_mixin.py:190} INFO - [2025-06-10T16:44:52.141+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:44:52.615+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:44:52.676+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.546 seconds
+[2025-06-10T16:45:08.676+0200] {processor.py:186} INFO - Started process (PID=45082) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:45:08.677+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T16:45:08.678+0200] {logging_mixin.py:190} INFO - [2025-06-10T16:45:08.678+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:45:09.019+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:45:09.078+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.410 seconds
+[2025-06-10T16:45:40.262+0200] {processor.py:186} INFO - Started process (PID=45214) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:45:40.264+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T16:45:40.264+0200] {logging_mixin.py:190} INFO - [2025-06-10T16:45:40.264+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:45:40.681+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:45:40.739+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.485 seconds
+[2025-06-10T16:46:12.500+0200] {processor.py:186} INFO - Started process (PID=45311) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:46:12.502+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T16:46:12.502+0200] {logging_mixin.py:190} INFO - [2025-06-10T16:46:12.502+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:46:12.862+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:46:12.919+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.428 seconds
+[2025-06-10T16:46:48.360+0200] {processor.py:186} INFO - Started process (PID=45739) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:46:48.365+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T16:46:48.366+0200] {logging_mixin.py:190} INFO - [2025-06-10T16:46:48.366+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:46:49.419+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:46:49.503+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 1.149 seconds
+[2025-06-10T16:47:20.857+0200] {processor.py:186} INFO - Started process (PID=46314) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:47:20.859+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T16:47:20.859+0200] {logging_mixin.py:190} INFO - [2025-06-10T16:47:20.859+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:47:21.243+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:47:21.324+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.475 seconds
+[2025-06-10T16:47:52.795+0200] {processor.py:186} INFO - Started process (PID=46388) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:47:52.796+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T16:47:52.797+0200] {logging_mixin.py:190} INFO - [2025-06-10T16:47:52.797+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:47:53.217+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:47:53.276+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.488 seconds
+[2025-06-10T16:48:41.854+0200] {processor.py:186} INFO - Started process (PID=46702) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:48:41.856+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T16:48:41.857+0200] {logging_mixin.py:190} INFO - [2025-06-10T16:48:41.857+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:48:42.285+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:48:42.348+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.502 seconds
+[2025-06-10T16:49:13.858+0200] {processor.py:186} INFO - Started process (PID=46838) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:49:13.860+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T16:49:13.861+0200] {logging_mixin.py:190} INFO - [2025-06-10T16:49:13.860+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:49:14.388+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:49:14.447+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.603 seconds
+[2025-06-10T16:49:46.033+0200] {processor.py:186} INFO - Started process (PID=46917) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:49:46.035+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T16:49:46.035+0200] {logging_mixin.py:190} INFO - [2025-06-10T16:49:46.035+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:49:46.336+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:49:46.395+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.369 seconds
+[2025-06-10T16:50:17.871+0200] {processor.py:186} INFO - Started process (PID=47007) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:50:17.873+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T16:50:17.873+0200] {logging_mixin.py:190} INFO - [2025-06-10T16:50:17.873+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:50:18.276+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:50:18.333+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.469 seconds
+[2025-06-10T16:50:49.762+0200] {processor.py:186} INFO - Started process (PID=47088) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:50:49.764+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T16:50:49.764+0200] {logging_mixin.py:190} INFO - [2025-06-10T16:50:49.764+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:50:50.108+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:50:50.166+0200] {processor.py:208} INFO - Processing /Users/tsimsek/airflow/dags/utils.py took 0.412 seconds
+[2025-06-10T16:51:21.747+0200] {processor.py:186} INFO - Started process (PID=47195) to work on /Users/tsimsek/airflow/dags/utils.py
+[2025-06-10T16:51:21.749+0200] {processor.py:914} INFO - Processing file /Users/tsimsek/airflow/dags/utils.py for tasks to queue
+[2025-06-10T16:51:21.749+0200] {logging_mixin.py:190} INFO - [2025-06-10T16:51:21.749+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/tsimsek/airflow/dags/utils.py

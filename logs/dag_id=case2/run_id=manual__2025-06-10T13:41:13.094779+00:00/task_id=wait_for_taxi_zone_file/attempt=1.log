@@ -1,0 +1,99 @@
+[2025-06-10T15:41:16.464+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-06-10T15:41:16.467+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: case2.wait_for_taxi_zone_file manual__2025-06-10T13:41:13.094779+00:00 [queued]>
+[2025-06-10T15:41:16.469+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: case2.wait_for_taxi_zone_file manual__2025-06-10T13:41:13.094779+00:00 [queued]>
+[2025-06-10T15:41:16.469+0200] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-06-10T15:41:16.474+0200] {taskinstance.py:2890} INFO - Executing <Task(FileSensor): wait_for_taxi_zone_file> on 2025-06-10 13:41:13.094779+00:00
+[2025-06-10T15:41:16.477+0200] {standard_task_runner.py:72} INFO - Started process 31623 to run task
+[2025-06-10T15:41:16.479+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'case2', 'wait_for_taxi_zone_file', 'manual__2025-06-10T13:41:13.094779+00:00', '--job-id', '34', '--raw', '--subdir', 'DAGS_FOLDER/case2.py', '--cfg-path', '/var/folders/sj/kmk_wl3517d377606n_z382h0000gp/T/tmpl9gq829r']
+[2025-06-10T15:41:16.481+0200] {standard_task_runner.py:105} INFO - Job 34: Subtask wait_for_taxi_zone_file
+[2025-06-10T15:41:16.510+0200] {task_command.py:467} INFO - Running <TaskInstance: case2.wait_for_taxi_zone_file manual__2025-06-10T13:41:13.094779+00:00 [running]> on host LGLXN9TVJX
+[2025-06-10T15:41:16.533+0200] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='case2' AIRFLOW_CTX_TASK_ID='wait_for_taxi_zone_file' AIRFLOW_CTX_EXECUTION_DATE='2025-06-10T13:41:13.094779+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-10T13:41:13.094779+00:00'
+[2025-06-10T15:41:16.534+0200] {taskinstance.py:732} INFO - ::endgroup::
+[2025-06-10T15:41:16.542+0200] {baseoperator.py:423} WARNING - FileSensor.execute cannot be called outside TaskInstance!
+[2025-06-10T15:41:16.547+0200] {base.py:84} INFO - Retrieving connection 'fs_default'
+[2025-06-10T15:41:16.548+0200] {filesystem.py:109} INFO - Poking for file /Users/tsimsek/airflow/dags/../data/raw/zones_13062025.csv
+[2025-06-10T15:41:16.552+0200] {taskinstance.py:310} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-06-10T15:41:16.552+0200] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-06-10T15:41:16.575+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-06-10T15:41:16.584+0200] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-10T15:41:16.584+0200] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-06-10T15:41:49.399+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-06-10T15:41:49.405+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: case2.wait_for_taxi_zone_file manual__2025-06-10T13:41:13.094779+00:00 [queued]>
+[2025-06-10T15:41:49.407+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: case2.wait_for_taxi_zone_file manual__2025-06-10T13:41:13.094779+00:00 [queued]>
+[2025-06-10T15:41:49.407+0200] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-06-10T15:41:49.413+0200] {taskinstance.py:2890} INFO - Executing <Task(FileSensor): wait_for_taxi_zone_file> on 2025-06-10 13:41:13.094779+00:00
+[2025-06-10T15:41:49.416+0200] {standard_task_runner.py:72} INFO - Started process 31740 to run task
+[2025-06-10T15:41:49.419+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'case2', 'wait_for_taxi_zone_file', 'manual__2025-06-10T13:41:13.094779+00:00', '--job-id', '35', '--raw', '--subdir', 'DAGS_FOLDER/case2.py', '--cfg-path', '/var/folders/sj/kmk_wl3517d377606n_z382h0000gp/T/tmpujv9o2ri']
+[2025-06-10T15:41:49.420+0200] {standard_task_runner.py:105} INFO - Job 35: Subtask wait_for_taxi_zone_file
+[2025-06-10T15:41:49.464+0200] {task_command.py:467} INFO - Running <TaskInstance: case2.wait_for_taxi_zone_file manual__2025-06-10T13:41:13.094779+00:00 [running]> on host LGLXN9TVJX
+[2025-06-10T15:41:49.487+0200] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='case2' AIRFLOW_CTX_TASK_ID='wait_for_taxi_zone_file' AIRFLOW_CTX_EXECUTION_DATE='2025-06-10T13:41:13.094779+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-10T13:41:13.094779+00:00'
+[2025-06-10T15:41:49.487+0200] {taskinstance.py:732} INFO - ::endgroup::
+[2025-06-10T15:41:49.497+0200] {baseoperator.py:423} WARNING - FileSensor.execute cannot be called outside TaskInstance!
+[2025-06-10T15:41:49.499+0200] {base.py:84} INFO - Retrieving connection 'fs_default'
+[2025-06-10T15:41:49.500+0200] {filesystem.py:109} INFO - Poking for file /Users/tsimsek/airflow/dags/../data/raw/zones_13062025.csv
+[2025-06-10T15:41:49.504+0200] {taskinstance.py:310} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-06-10T15:41:49.504+0200] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-06-10T15:41:49.513+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-06-10T15:41:49.522+0200] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-10T15:41:49.523+0200] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-06-10T15:42:24.751+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-06-10T15:42:24.755+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: case2.wait_for_taxi_zone_file manual__2025-06-10T13:41:13.094779+00:00 [queued]>
+[2025-06-10T15:42:24.757+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: case2.wait_for_taxi_zone_file manual__2025-06-10T13:41:13.094779+00:00 [queued]>
+[2025-06-10T15:42:24.758+0200] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-06-10T15:42:24.762+0200] {taskinstance.py:2890} INFO - Executing <Task(FileSensor): wait_for_taxi_zone_file> on 2025-06-10 13:41:13.094779+00:00
+[2025-06-10T15:42:24.765+0200] {standard_task_runner.py:72} INFO - Started process 31865 to run task
+[2025-06-10T15:42:24.768+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'case2', 'wait_for_taxi_zone_file', 'manual__2025-06-10T13:41:13.094779+00:00', '--job-id', '36', '--raw', '--subdir', 'DAGS_FOLDER/case2.py', '--cfg-path', '/var/folders/sj/kmk_wl3517d377606n_z382h0000gp/T/tmpcg4ftky_']
+[2025-06-10T15:42:24.770+0200] {standard_task_runner.py:105} INFO - Job 36: Subtask wait_for_taxi_zone_file
+[2025-06-10T15:42:24.803+0200] {task_command.py:467} INFO - Running <TaskInstance: case2.wait_for_taxi_zone_file manual__2025-06-10T13:41:13.094779+00:00 [running]> on host LGLXN9TVJX
+[2025-06-10T15:42:24.828+0200] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='case2' AIRFLOW_CTX_TASK_ID='wait_for_taxi_zone_file' AIRFLOW_CTX_EXECUTION_DATE='2025-06-10T13:41:13.094779+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-10T13:41:13.094779+00:00'
+[2025-06-10T15:42:24.828+0200] {taskinstance.py:732} INFO - ::endgroup::
+[2025-06-10T15:42:24.839+0200] {baseoperator.py:423} WARNING - FileSensor.execute cannot be called outside TaskInstance!
+[2025-06-10T15:42:24.842+0200] {base.py:84} INFO - Retrieving connection 'fs_default'
+[2025-06-10T15:42:24.842+0200] {filesystem.py:109} INFO - Poking for file /Users/tsimsek/airflow/dags/../data/raw/zones_13062025.csv
+[2025-06-10T15:42:24.846+0200] {taskinstance.py:310} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-06-10T15:42:24.847+0200] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-06-10T15:42:24.863+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-06-10T15:42:24.871+0200] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-10T15:42:24.871+0200] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-06-10T15:42:56.692+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-06-10T15:42:56.695+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: case2.wait_for_taxi_zone_file manual__2025-06-10T13:41:13.094779+00:00 [queued]>
+[2025-06-10T15:42:56.697+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: case2.wait_for_taxi_zone_file manual__2025-06-10T13:41:13.094779+00:00 [queued]>
+[2025-06-10T15:42:56.697+0200] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-06-10T15:42:56.702+0200] {taskinstance.py:2890} INFO - Executing <Task(FileSensor): wait_for_taxi_zone_file> on 2025-06-10 13:41:13.094779+00:00
+[2025-06-10T15:42:56.704+0200] {standard_task_runner.py:72} INFO - Started process 31946 to run task
+[2025-06-10T15:42:56.707+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'case2', 'wait_for_taxi_zone_file', 'manual__2025-06-10T13:41:13.094779+00:00', '--job-id', '37', '--raw', '--subdir', 'DAGS_FOLDER/case2.py', '--cfg-path', '/var/folders/sj/kmk_wl3517d377606n_z382h0000gp/T/tmpbwlrq86z']
+[2025-06-10T15:42:56.708+0200] {standard_task_runner.py:105} INFO - Job 37: Subtask wait_for_taxi_zone_file
+[2025-06-10T15:42:56.741+0200] {task_command.py:467} INFO - Running <TaskInstance: case2.wait_for_taxi_zone_file manual__2025-06-10T13:41:13.094779+00:00 [running]> on host LGLXN9TVJX
+[2025-06-10T15:42:56.765+0200] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='case2' AIRFLOW_CTX_TASK_ID='wait_for_taxi_zone_file' AIRFLOW_CTX_EXECUTION_DATE='2025-06-10T13:41:13.094779+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-10T13:41:13.094779+00:00'
+[2025-06-10T15:42:56.765+0200] {taskinstance.py:732} INFO - ::endgroup::
+[2025-06-10T15:42:56.775+0200] {baseoperator.py:423} WARNING - FileSensor.execute cannot be called outside TaskInstance!
+[2025-06-10T15:42:56.778+0200] {base.py:84} INFO - Retrieving connection 'fs_default'
+[2025-06-10T15:42:56.778+0200] {filesystem.py:109} INFO - Poking for file /Users/tsimsek/airflow/dags/../data/raw/zones_13062025.csv
+[2025-06-10T15:42:56.782+0200] {taskinstance.py:310} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-06-10T15:42:56.782+0200] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-06-10T15:42:56.802+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-06-10T15:42:56.811+0200] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-10T15:42:56.811+0200] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-06-10T15:43:28.642+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-06-10T15:43:28.645+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: case2.wait_for_taxi_zone_file manual__2025-06-10T13:41:13.094779+00:00 [queued]>
+[2025-06-10T15:43:28.647+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: case2.wait_for_taxi_zone_file manual__2025-06-10T13:41:13.094779+00:00 [queued]>
+[2025-06-10T15:43:28.647+0200] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-06-10T15:43:28.652+0200] {taskinstance.py:2890} INFO - Executing <Task(FileSensor): wait_for_taxi_zone_file> on 2025-06-10 13:41:13.094779+00:00
+[2025-06-10T15:43:28.655+0200] {standard_task_runner.py:72} INFO - Started process 32058 to run task
+[2025-06-10T15:43:28.657+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'case2', 'wait_for_taxi_zone_file', 'manual__2025-06-10T13:41:13.094779+00:00', '--job-id', '38', '--raw', '--subdir', 'DAGS_FOLDER/case2.py', '--cfg-path', '/var/folders/sj/kmk_wl3517d377606n_z382h0000gp/T/tmpp5c8jjaz']
+[2025-06-10T15:43:28.659+0200] {standard_task_runner.py:105} INFO - Job 38: Subtask wait_for_taxi_zone_file
+[2025-06-10T15:43:28.692+0200] {task_command.py:467} INFO - Running <TaskInstance: case2.wait_for_taxi_zone_file manual__2025-06-10T13:41:13.094779+00:00 [running]> on host LGLXN9TVJX
+[2025-06-10T15:43:28.715+0200] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='case2' AIRFLOW_CTX_TASK_ID='wait_for_taxi_zone_file' AIRFLOW_CTX_EXECUTION_DATE='2025-06-10T13:41:13.094779+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-10T13:41:13.094779+00:00'
+[2025-06-10T15:43:28.716+0200] {taskinstance.py:732} INFO - ::endgroup::
+[2025-06-10T15:43:28.725+0200] {baseoperator.py:423} WARNING - FileSensor.execute cannot be called outside TaskInstance!
+[2025-06-10T15:43:28.728+0200] {base.py:84} INFO - Retrieving connection 'fs_default'
+[2025-06-10T15:43:28.728+0200] {filesystem.py:109} INFO - Poking for file /Users/tsimsek/airflow/dags/../data/raw/zones_13062025.csv
+[2025-06-10T15:43:28.729+0200] {filesystem.py:113} INFO - Found File /Users/tsimsek/airflow/dags/../data/raw/zones_13062025.csv last modified: 20250610154259
+[2025-06-10T15:43:28.729+0200] {base.py:339} INFO - Success criteria met. Exiting.
+[2025-06-10T15:43:28.729+0200] {filesystem.py:109} INFO - Poking for file /Users/tsimsek/airflow/dags/../data/raw/zones_13062025.csv
+[2025-06-10T15:43:28.730+0200] {filesystem.py:113} INFO - Found File /Users/tsimsek/airflow/dags/../data/raw/zones_13062025.csv last modified: 20250610154259
+[2025-06-10T15:43:28.731+0200] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-06-10T15:43:28.732+0200] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=case2, task_id=wait_for_taxi_zone_file, run_id=manual__2025-06-10T13:41:13.094779+00:00, execution_date=20250610T134113, start_date=20250610T134328, end_date=20250610T134328
+[2025-06-10T15:43:28.753+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-06-10T15:43:28.762+0200] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-06-10T15:43:28.763+0200] {local_task_job_runner.py:245} INFO - ::endgroup::
