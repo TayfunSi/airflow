@@ -26,34 +26,25 @@ import os
 # Damit du eigene Funktionen aus utils importieren kannst:
 sys.path.append(os.path.dirname(__file__))
 
-# TODO: Importiere hier die für case1 vorgesehene Funktion aus utils.py
-# z. B. from utils import case1_ingest_zones
-# _____________  
+_____________                                                      # TODO: Importiere hier die für case1 vorgesehene Funktion aus utils.py
 
 default_args = {
     'owner': 'airflow',
-    # TODO: Setze ein Startdatum für deinen DAG. Tipp: datetime()
-    'start_date': _______________,      # muss in der Vergangenheit liegen
+    'start_date': _______________,                                 # TODO: Setze ein Startdatum für deinen DAG. Vergangenheit!
     'retries': 0,
 }
 
 with DAG(
     dag_id='case1',
     default_args=default_args,
-    # TODO: Der DAG soll nur manuell getriggert werden.
-    schedule_interval=_____________,
-    # TODO: Vergangene Runs sollen nicht abgearbeitet werden
-    catchup=____, 
+    schedule_interval=_____________,                               # TODO: Der DAG soll nur manuell getriggert werden.
+    catchup=____,                                                  # TODO: Vergangene Runs sollen nicht abgearbeitet werden
     description='Lädt zones.csv aus und speichert in processed'
 ) as dag:
 
-    # TODO: Wähle einen geeigneten Operator für Python Funktionen und importiere ihn in Zeile 3
-    ingest_task = _________(
-        # TODO: Wähle einen passenden Task-Namen, z. B. 'ingest_zone_data'
-        task_id='_______________',
-        # TODO: Setze hier deine Python-Funktion als callable ein
-        python_callable=_____________
+    ingest_task = _________(                                       # TODO: Wähle einen geeigneten Operator für Python Funktionen und importiere ihn in Zeile 3
+        task_id='_______________',                                 # TODO: Wähle einen passenden Task-Namen, z. B. 'ingest_zone_data'
+        python_callable=_____________                              # TODO: Setze hier deine Python-Funktion als callable ein
     )
 
-    # Der DAG startet (und endet) mit ingest_task
-    ingest_task
+    ingest_task                                                    # Der DAG startet (und endet) mit ingest_task

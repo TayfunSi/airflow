@@ -14,12 +14,11 @@ Ziel ist es, dass ihr:
 - den Ablauf eigenständig im DAG aufbaut.
 
 Hinweis: Die Datei `zones_13062025.csv` **muss und soll! beim Start des DAGs noch nicht vorhanden sein**. Erst wenn sie eintrifft, läuft der Workflow weiter.
-
 """
 
 from airflow import DAG
-from airflow.operators.python import ______
-from airflow.sensors.filesystem import ______
+from airflow.operators.python import ______                      # TODO: Importiere PythonOperator
+from airflow.sensors.filesystem import ______                   # TODO: Importiere FileSensor
 from datetime import datetime, timedelta
 import sys
 import os
@@ -28,7 +27,7 @@ import os
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
 # TODO: Setze hier den relativen Pfad zur Datei, die getriggert werden soll
-raw_file_path = os.path.join(base_dir, "../data/raw/zones_13062025.csv") # diese Datei aber noch nicht erstellen!!!
+raw_file_path = os.path.join(base_dir, "../data/raw/zones_13062025.csv")  # diese Datei aber noch nicht erstellen!!!
 
 # Damit du Funktionen aus utils.py importieren kannst
 sys.path.append(os.path.dirname(__file__))
@@ -39,9 +38,9 @@ sys.path.append(os.path.dirname(__file__))
 # TODO: Default Argumente nun eigenständig ausfüllen
 default_args = {
     'owner': '______',
-    'start_date': ______,   # muss in der Vergangenheit liegen
+    'start_date': ______,                                           # muss in der Vergangenheit liegen
     'retries': 0,
-    'retry_delay': _______, # wir simulieren ein timedelta von 5 Minuten, auch wenn retries: 0 ist. Tipp: timedelta()
+    'retry_delay': _______,                                         # wir simulieren ein timedelta von 5 Minuten, auch wenn retries: 0 ist. Tipp: timedelta()
 }
 
 with DAG(
@@ -55,18 +54,18 @@ with DAG(
 ) as dag:
 
     # TODO: Sensor, der auf das Vorhandensein einer Datei wartet
-    wait_for_file = _______(    # Bitte importieren
+    wait_for_file = _______(                                        # Bitte importieren
         # TODO: Wähle einen passenden Task-Namen
         task_id='______',
         # TODO: wir geben den Pfad zur Datei an
         _______=raw_file_path,
-        poke_interval=______,   # alle 30 Sekunden prüfen - Integer
-        timeout=______,         # nach 600 Sekunden abbrechen, auch Minute * 60 möglich - Integer
-        mode='______________'   # blockierend oder rescheduling möglich, bitte rescheduling
+        poke_interval=______,                                       # alle 30 Sekunden prüfen - Integer
+        timeout=______,                                             # nach 600 Sekunden abbrechen, auch Minute * 60 möglich - Integer
+        mode='______________'                                       # blockierend oder rescheduling möglich, bitte rescheduling
     )
 
     # TODO: Operator, der die Datei verarbeitet
-    process_file = ________(    # Bitte importieren
+    process_file = ________(                                        # Bitte oben importieren
         # TODO: Wähle einen passenden Task-Namen
         task_id='________',
         # TODO: Setze hier deine Python-Funktion als callable ein

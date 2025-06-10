@@ -106,7 +106,7 @@ with DAG(
     # TODO: Erstelle den Report durch die Funktion - vergiss den Operator nicht.
     report_task = ______
 
-    # Bonus TODO: Sende Erfolgs-Email
+    # Theorie: Sende Erfolgs-Email
     #email_task = EmailOperator(
     #    task_id='send_success_email',
     #    to='your.email@example.com',

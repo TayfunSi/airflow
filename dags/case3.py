@@ -88,8 +88,8 @@ with DAG(
 
     # TODO: Erstelle einen Operator, der die obige Funktion ausführt
     filter_task = ___________(
-        task_id='__________',
-        python_callable=__________,
+        ___ = ___,
+        ___ =__________,
         provide_context=True  # Hinweis: notwendig für execution_date
     )
 
@@ -98,11 +98,8 @@ with DAG(
     # ------------------------------
 
     # TODO: Erstelle einen weiteren PythonOperator
-    # - Die Funktion ist ausgelagert und verarbeitet die gefilterte Datei
-    join_task = ___________(
-        task_id='__________',
-        python_callable=__________
-    )
+    #       Nutze die ausgelagerte Funktion.
+    join_task = ___________
 
     # TODO: Setze Reihenfolge der Tasks (Zuerst filtern, dann joinen)
     ________ >> ________
