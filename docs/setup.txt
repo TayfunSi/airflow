@@ -4,19 +4,19 @@
 
 
 
-2. Python installieren
-
-python -m venv airflow_env
-source airflow_env/bin/activate  # macOS/Linux
+# 2. Python installieren
+#
+# python3 -m venv airflow_env
+# source airflow_env/bin/activate  # macOS/Linux
 # ODER .\airflow_env\Scripts\activate  # Windows
-
-pip install "apache-airflow==2.7.2"
 
 
 
 3. Airflow installieren
 
-pip install "apache-airflow==2.7.2"
+pip install "apache-airflow==2.9.2"
+rm /Users/tsimsek/airflow/airflow.db <- Pfad anpassen
+airflow db init
 
 
 
@@ -29,6 +29,12 @@ airflow users create \
     --lastname User \
     --role Admin \
     --email admin@example.com
+
+
+
+6. Anpassungen in airflow.cfg 
+
+dags_folder = /Users/tsimsek/airflow/dags <- Pfad anpassen
 
 
 
@@ -47,3 +53,8 @@ airflow scheduler
 6. Airflow UI öffnen:
 
 http://localhost:8080
+
+
+7. Airflow stoppen
+
+pkill -f airflow   
