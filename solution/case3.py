@@ -11,14 +11,14 @@ from utils import case3_join_taxi_with_zones  # Der Join ist ausgelagert
 
 default_args = {
     'owner': 'airflow',
-    'start_date': datetime(2024, 2, 1),
+    'start_date': datetime(2025, 6, 1),
     'retries': 0
     }
 
 with DAG(
     dag_id='case3',
     default_args=default_args,
-    schedule_interval=None,
+    schedule_interval='0 10 1 * *',
     catchup=True,
     description='Filtert Taxi-Daten pro Monat und joint mit Zone-Daten'
 ) as dag:

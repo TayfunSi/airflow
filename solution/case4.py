@@ -10,80 +10,104 @@ import sys
 sys.path.append(os.path.dirname(__file__))
 from utils import case4_join_taxi_with_zones, case4_check_data_quality
 
-# Pfad-Konfiguration (basierend auf deiner Funktion)
-base_dir = os.path.dirname(os.path.abspath(__file__))  # Verzeichnis der DAG-Datei
-raw_file_path = os.path.join(base_dir, "../data/raw/taxi_data_today.parquet")  # Relativer Pfad zum Raw-File
+base_dir = os.path.dirname(os.path.abspath(__file__))
+taxi_file = os.path.join(base_dir, "../data/raw/taxi_data_today.parquet")
+zone_file = os.path.join(base_dir, "../data/raw/updated_zones.csv")
+processed_dir = os.path.join(base_dir, "../data/processed")
+os.makedirs(processed_dir, exist_ok=True)
 
 default_args = {
     'owner': 'airflow',
     'start_date': datetime(2024, 1, 15),
-    'retries': 0,
-    'retry_delay': timedelta(minutes=5),
-    'email': ['tayfun.simsek@mhp.com'],
+    'retries': 1,
+    'retry_delay': timedelta(minutes=3),
+    'email': ['your.email@example.com'],
     'email_on_failure': True,
-    'email_on_retry': False,
+    'email_on_retry': False
 }
 
 with DAG(
-    dag_id='case4',
+    dag_id='case4_parallel_etl',
     default_args=default_args,
     schedule_interval=None,
-    catchup=True,
+    catchup=False,
     max_active_runs=1,
-    description='Kompletter ETL-Workflow: Trigger, Filter, Join, Data Quality & Email',
+    description='Paralleler ETL-Workflow mit zwei Datenquellen und Reporting',
 ) as dag:
 
-    wait_for_raw_file = FileSensor(
-        task_id='wait_for_raw_parquet',
-        filepath=raw_file_path,
+    # Sensors
+    wait_for_taxi = FileSensor(
+        task_id='wait_for_taxi_file',
+        filepath=taxi_file,
         poke_interval=30,
-        timeout=60*60,
+        timeout=3600,
         mode='reschedule'
     )
 
-    def filter_taxi_data_daily(execution_date, **kwargs):
-        input_path = raw_file_path
-        output_dir = os.path.join(base_dir, "../data/processed")
-        os.makedirs(output_dir, exist_ok=True)
-
-        year = execution_date.year
-        month = execution_date.month
-        day = execution_date.day
-
-        output_path = f"{output_dir}/taxi_data_{year}-{month:02d}-{day:02d}.parquet"
-
-        df = pd.read_parquet(input_path)
-        df["tpep_pickup_datetime"] = pd.to_datetime(df["tpep_pickup_datetime"])
-
-        df_filtered = df[
-            (df["tpep_pickup_datetime"].dt.date == execution_date.date())
-        ]
-
-        df_filtered.to_parquet(output_path, index=False)
-        print(f"✅ Gefiltert: {len(df_filtered)} Zeilen für {year}-{month:02d}-{day:02d}")
-
-    filter_task = PythonOperator(
-        task_id='filter_taxi_data',
-        python_callable=filter_taxi_data_daily,
-        provide_context=True
+    wait_for_zone = FileSensor(
+        task_id='wait_for_zone_file',
+        filepath=zone_file,
+        poke_interval=30,
+        timeout=3600,
+        mode='reschedule'
     )
 
-    join_task = PythonOperator(
-        task_id='join_with_zone_data',
+    # Ladefunktionen
+    def load_taxi_data(**kwargs):
+        df = pd.read_parquet(taxi_file)
+        df.to_parquet(os.path.join(processed_dir, "taxi_loaded.parquet"), index=False)
+
+    def load_zone_data(**kwargs):
+        df = pd.read_csv(zone_file)
+        df.to_csv(os.path.join(processed_dir, "zones_loaded.csv"), index=False)
+
+    load_taxi = PythonOperator(
+        task_id='load_taxi_data',
+        python_callable=load_taxi_data
+    )
+
+    load_zone = PythonOperator(
+        task_id='load_zone_data',
+        python_callable=load_zone_data
+    )
+
+    # Join (ausgelagert in utils)
+    join_data = PythonOperator(
+        task_id='join_taxi_with_zones',
         python_callable=case4_join_taxi_with_zones
     )
 
-    quality_check_task = PythonOperator(
+    # Qualitätsprüfung
+    check_quality = PythonOperator(
         task_id='data_quality_check',
         python_callable=case4_check_data_quality
     )
 
-    email_task = EmailOperator(
-        task_id='send_success_email',
-        to='tayfun.simsek@mhp.com',
-        subject='Airflow ETL Job erfolgreich abgeschlossen',
-        html_content="""<h3>Der ETL-Job <b>case4_full_etl_with_email</b> wurde erfolgreich ausgeführt.</h3>
-                        <p>Monatliche Verarbeitung abgeschlossen.</p>"""
+    # Aggregation / Reporting
+    def create_report(**kwargs):
+        file_path = os.path.join(processed_dir, "joined_data.parquet")
+        df = pd.read_parquet(file_path)
+        result = df.groupby("Zone").agg(
+            fahrten_anzahl=("trip_distance", "count"),
+            durchschnittspreis=("total_amount", "mean")
+        ).reset_index()
+
+        output_csv = os.path.join(processed_dir, "zone_report.csv")
+        result.to_csv(output_csv, index=False)
+        print("📊 Report gespeichert:", output_csv)
+
+    report_task = PythonOperator(
+        task_id='generate_report',
+        python_callable=create_report
     )
 
-    wait_for_raw_file >> filter_task >> join_task >> quality_check_task # >> email_task
+    email_task = EmailOperator(
+        task_id='send_success_email',
+        to='your.email@example.com',
+        subject='🚀 Airflow Case4 Report abgeschlossen',
+        html_content="<p>ETL-Pipeline erfolgreich durchgelaufen. Der Report ist verfügbar.</p>"
+    )
+
+    # Ablauf definieren
+    [wait_for_taxi >> load_taxi, wait_for_zone >> load_zone] >> join_data
+    join_data >> check_quality >> report_task # >> email_task
