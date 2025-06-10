@@ -1,0 +1,49 @@
+1. Repository clonen 
+
+(machen wir gemeinsam)
+
+
+
+2. Python installieren
+
+python -m venv airflow_env
+source airflow_env/bin/activate  # macOS/Linux
+# ODER .\airflow_env\Scripts\activate  # Windows
+
+pip install "apache-airflow==2.7.2"
+
+
+
+3. Airflow installieren
+
+pip install "apache-airflow==2.7.2"
+
+
+
+4. User für Web UI anlegen
+
+airflow users create \
+    --username admin \
+    --password admin \
+    --firstname Admin \
+    --lastname User \
+    --role Admin \
+    --email admin@example.com
+
+
+
+5. Airflow Webserver und Scheduler starten
+
+Terminal 1: 
+
+airflow webserver --port 8080
+
+Terminal 2:
+
+airflow scheduler
+
+
+
+6. Airflow UI öffnen:
+
+http://localhost:8080
