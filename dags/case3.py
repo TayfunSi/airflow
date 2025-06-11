@@ -69,7 +69,7 @@ with DAG(
         year = prev_month_end._____                         
         month = prev_month_end._____
 
-        # TODO: Setze Pfad zur Zieldatei, z.B. "taxi_data_2025-05.parquet"
+        # TODO: Setze Pfad zur Zieldatei zu "taxi_data_2025-05.parquet"
         output_path = f"{output_dir}/__________"            # Arbeite hier dynamisch mit year und month. Month dabei bitte 2-stellig
 
         # Daten einlesen und filtern
@@ -102,4 +102,4 @@ with DAG(
     join_task = ___________
 
     # TODO: Setze Reihenfolge der Tasks (Zuerst filtern, dann joinen)
-    ________ >> ________
+    ________________

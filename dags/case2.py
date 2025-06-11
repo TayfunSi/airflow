@@ -17,7 +17,7 @@ Hinweis: Die Datei `zones_13062025.csv` **muss und soll! beim Start des DAGs noc
 """
 
 from airflow import DAG
-from airflow.operators.python import ______                      # TODO: Importiere PythonOperator
+from airflow.operators.python import ______                     # TODO: Importiere PythonOperator
 from airflow.sensors.filesystem import ______                   # TODO: Importiere FileSensor
 from datetime import datetime, timedelta
 import sys
@@ -26,14 +26,12 @@ import os
 # Konfiguriere Pfade
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
-# TODO: Setze hier den relativen Pfad zur Datei, die getriggert werden soll
-raw_file_path = os.path.join(base_dir, "../data/raw/zones_13062025.csv")  # diese Datei aber noch nicht erstellen!!!
+raw_file_path = os.path.join(base_dir, "../data/raw/zones_13062025.csv")  # TODO: Setze hier den relativen Pfad zur Datei, die getriggert werden soll
 
 # Damit du Funktionen aus utils.py importieren kannst
 sys.path.append(os.path.dirname(__file__))
 
-# TODO: Importiere die richtige Funktion für diesen Case
-# from utils import _______________
+from utils import _______________                                         # TODO: Importiere die richtige Funktion für diesen Case
 
 # TODO: Default Argumente nun eigenständig ausfüllen
 default_args = {
@@ -46,34 +44,28 @@ default_args = {
 with DAG(
     dag_id='case2',
     default_args=default_args,
-    # TODO: Der DAG soll täglich laufen
-    ______ = '______',
-    # TODO: Vergangene Runs sollen nicht abgearbeitet werden
-    _____ = _____,
-    description='Wartet auf Datei und verarbeitet sie danach automatisch'
+    ______ = '______',                                              # TODO: Der DAG soll täglich laufen
+    _____ = _____,                                                  # TODO: Vergangene Runs sollen nicht abgearbeitet werden
+    description='Wartet auf Datei und verarbeitet sie automatisch'
 ) as dag:
 
     # TODO: Sensor, der auf das Vorhandensein einer Datei wartet
     wait_for_file = _______(                                        # Bitte importieren
-        # TODO: Wähle einen passenden Task-Namen
-        task_id='______',
-        # TODO: wir geben den Pfad zur Datei an
-        _______=raw_file_path,
-        poke_interval=______,                                       # alle 30 Sekunden prüfen - Integer
-        timeout=______,                                             # nach 600 Sekunden abbrechen, auch Minute * 60 möglich - Integer
+        task_id='______',                                           # TODO: Wähle einen passenden Task-Namen
+        _______=raw_file_path,                                      # TODO: wir geben den Pfad zur Datei an
+        poke_interval=______,                                       # alle 30 Sekunden prüfen
+        timeout=______,                                             # nach 10 Minuten abbrechen, auch Minute * 60 möglich - Integer
         mode='______________'                                       # blockierend oder rescheduling möglich, bitte rescheduling
     )
 
     # TODO: Operator, der die Datei verarbeitet
     process_file = ________(                                        # Bitte oben importieren
-        # TODO: Wähle einen passenden Task-Namen
-        task_id='________',
-        # TODO: Setze hier deine Python-Funktion als callable ein
-        python_callable=______________  
+        task_id='________',                                         # TODO: Wähle einen passenden Task-Namen
+        python_callable=______________                              # TODO: Setze hier deine Python-Funktion als callable ein
     )
 
     # TODO: Setze die Tasks in richtige Reihenfolge
-    wait_for_file >> process_file
+    ______________
 
     # -------------------
     # 🧪 TESTANLEITUNG:

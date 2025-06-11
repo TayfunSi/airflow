@@ -92,10 +92,10 @@ with DAG(
         # 1. Gejointen Datensatz laden. Kombi aus Pfad und read_parquet.
         ________
         df = ______
-        # 2. Gruppiere nach Zone, aggregiere nach anzahl trip_distance und durchschnitt total_amount
+        # 2. Gruppiere nach Zone, aggregiere nach anzahl "trip_distance" und durchschnitt "total_amount"
         result = df.groupby(____).agg(
-            fahrten_anzahl=(_____, _____),
-            durchschnittspreis=(_____, _____)
+            fahrten_anzahl=(_______),
+            durchschnittspreis=(_______)
         ).reset_index()
 
         # 3. Definiere Pfad + Dateiname und speichere result als csv ab
@@ -120,3 +120,6 @@ with DAG(
     #                    Darauf folgt die Mail, den Task dazu auskommentieren.
     # 
     #       Tipp: Parallel laufende Jobs in eckige Klammern setzen. :)
+
+
+    ___________________________

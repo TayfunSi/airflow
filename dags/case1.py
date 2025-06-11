@@ -43,7 +43,7 @@ with DAG(
 ) as dag:
 
     ingest_task = _________(                                       # TODO: Wähle einen geeigneten Operator für Python Funktionen und importiere ihn in Zeile 3
-        task_id='_______________',                                 # TODO: Wähle einen passenden Task-Namen, z. B. 'ingest_zone_data'
+        task_id='_______________',                                 # TODO: Wähle einen passenden Task-Namen
         python_callable=_____________                              # TODO: Setze hier deine Python-Funktion als callable ein
     )
 
