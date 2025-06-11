@@ -1,20 +1,21 @@
 """
 🚕 Use Case: Monatlich gefilterte Taxi-Daten analysieren (Case 3)
 
-📊 Ziel: Die monatlich gespeicherten Rohdaten der Taxis sollen jeweils am 1. eines Monats automatisiert gefiltert und im Anschluss mit Zoneninformationen angereichert werden. Dies entspricht einem typischen ETL-Prozess für Reporting-Zwecke:
+📊 Ziel: Die monatlich gespeicherten Rohdaten der Taxis sollen jeweils am 1. eines Monats automatisiert gefiltert und 
+im Anschluss mit Zoneninformationen angereichert werden. Dies entspricht einem typischen ETL-Prozess für Reporting-Zwecke:
 
 1️⃣ Am 1. Tag jedes Monats um 10 Uhr soll automatisch eine Filterung der Rohdaten aus `taxi_data.parquet` stattfinden.
-2️⃣ Gefiltert werden jeweils **nur** die Daten des Vormonats.
-3️⃣ Anschließend werden die gefilterten Daten mit den Zonendaten (aus `zones.csv`) gejoined – über eine bereits vorbereitete Funktion (`case3_join_taxi_with_zones`) aus `utils.py`.
+2️⃣ Gefiltert werden jeweils lediglich die Daten des Vormonats.
+3️⃣ Anschließend werden die gefilterten Daten mit den Zonendaten (aus `zones.csv`) gejoined – über eine bereits vorbereitete Funktion aus `utils.py`.
 
 🔄 Dieser DAG soll:
-- monatlich getriggert werden (CRON: `0 10 1 * *`)
-- vergangene Runs **nachholen** können (also `catchup=True`)
+- monatlich getriggert werden - am 01. jedes Monats, um 10 Uhr (Cron Expression finden)
+- vergangene Runs nachholen können
 - das Ausführungsdatum (`execution_date`) korrekt für den Vormonat berechnen.
 
 💡 Hinweis:
-- Die Filter-Funktion ist **im DAG definiert** (nicht in utils).
-- Die Join-Funktion wird importiert.
+- Die Filter-Funktion ist im DAG definiert und nicht in utils.py - damit demonstrieren wir, dass Funktionen auch direkt im DAG definiert werden können.
+- Die Join-Funktion steht bereit und wird importiert.
 """
 
 # case3_template.py

@@ -13,7 +13,7 @@ Deine Aufgabe besteht darin, den DAG zu konfigurieren und die passende Funktion 
 Schritte:
 1. Setze die DAG-Metadaten (Startdatum, Schedule, Catchup-Verhalten)
 2. Importiere alle benötigten Airflow-Operatoren und die Funktion aus `utils.py`
-3. Verwende den PythonOperator, um deine Funktion als Task auszuführen
+3. Verwende den richtigen Operator, um deine Funktion als Task auszuführen
 4. Der DAG soll manuell gestartet werden (kein schedule)
 """
 

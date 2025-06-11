@@ -1,3 +1,22 @@
+"""
+TODO: Use-Case Beschreibung
+
+Ihr erstellt einen ETL-Workflow für Taxi-Daten (tägliche Parquet-Datei) und Zonendaten (CSV).
+Der Workflow soll folgende Schritte ausführen:
+
+1. Auf die Verfügbarkeit beider Dateien warten
+2. Taxi-Daten laden und speichern (Parquet -> processed)
+3. Zonendaten laden und speichern (CSV -> processed)
+4. Taxi- und Zonendaten anhand LocationID verbinden (Join)
+5. Datenqualität prüfen (z.B. fehlende Werte)
+6. Einen einfachen Report erzeugen (Aggregation nach Zone: Anzahl Fahrten, Durchschnittspreis)
+7. nur Theorie: Nach erfolgreichem Durchlauf eine Erfolgsmail senden (Theorie, da umfangreiche Konfigurationen erforderlich).
+
+Die Pfade basieren auf dem base_dir (Verzeichnis der DAG-Datei).
+Die Teilnehmer sollen den Großteil der einzelnen Steps eigenständig implementieren.
+"""
+
+
 from airflow import DAG
 _____                                       # Platzhalter für Sensor
 _____                                       # Platzhalter für Sensor
@@ -11,23 +30,6 @@ import sys
 sys.path.append(os.path.dirname(__file__))
 from utils import case4_join_taxi_with_zones, case4_check_data_quality
 
-"""
-TODO: Use-Case Beschreibung
-
-Ihr erstellt einen ETL-Workflow für Taxi-Daten (tägliche Parquet-Datei) und Zonendaten (CSV).
-Der Workflow soll folgende Schritte ausführen:
-
-1. Auf die Verfügbarkeit beider Dateien warten (FileSensor)
-2. Taxi-Daten laden und speichern (Parquet -> processed)
-3. Zonendaten laden und speichern (CSV -> processed)
-4. Taxi- und Zonendaten anhand LocationID verbinden (Join)
-5. Datenqualität prüfen (z.B. fehlende Werte)
-6. Einen einfachen Report erzeugen (Aggregation nach Zone: Anzahl Fahrten, Durchschnittspreis)
-7. nur Theorie: Nach erfolgreichem Durchlauf eine Erfolgsmail senden, umfangreiche Konfigurationen erforderlich.
-
-Die Pfade basieren auf dem base_dir (Verzeichnis der DAG-Datei).
-Die Teilnehmer sollen den Großteil der einzelnen Steps eigenständig implementieren.
-"""
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
@@ -63,19 +65,21 @@ with DAG(
     _____
 
     # TODO: Lade Taxi-Daten in processed Ordner (Parquet)
+    #       Hier Taxi-Parquet lesen und speichern
+    #       Tipp: read_parquet, to_parquet
+    #       Zielordner: (os.path.join(processed_dir, "taxi_loaded.parquet"), index=False)
+    #       pass entfernen
     def load_taxi_data(**kwargs):
-        # Hier Taxi-Parquet lesen und speichern
-        # Tipp: read_parquet, to_parquet
-        # Zielordner: (os.path.join(processed_dir, "taxi_loaded.parquet"), index=False)
-        # pass entfernen
+        
         pass
     
     # TODO: Benötigen Operator und die zu nutzende Funktion.
     load_taxi = _______
 
     # TODO: Lade Zonendaten in processed Ordner (CSV)
+    #       analog load_taxi_data()
     def load_zone_data(**kwargs):
-        # analog load_taxi_data()
+
         pass
 
     # TODO: analog load_taxi
@@ -92,6 +96,7 @@ with DAG(
         # 1. Gejointen Datensatz laden. Kombi aus Pfad und read_parquet.
         ________
         df = ______
+        
         # 2. Gruppiere nach Zone, aggregiere nach anzahl "trip_distance" und durchschnitt "total_amount"
         result = df.groupby(____).agg(
             fahrten_anzahl=(_______),
