@@ -1,4 +1,11 @@
-logs/
+# Airflow
 airflow.db
+airflow.cfg
+logs/
 __pycache__/
+unittests.cfg
+.venv/
+.env/
+*.log
 *.pid
+.egg-info/
