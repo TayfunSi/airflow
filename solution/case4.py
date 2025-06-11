@@ -27,7 +27,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id='case4_parallel_etl',
+    dag_id='case4',
     default_args=default_args,
     schedule_interval=None,
     catchup=False,
