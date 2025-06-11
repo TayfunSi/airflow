@@ -20,9 +20,6 @@ source airflow_env/bin/activate  # macOS/Linux
 ```bash
 pip install "apache-airflow==2.9.2"
 
-# (Optional) Alte lokale Datenbank entfernen – Pfad ggf. anpassen
-rm /Users/tsimsek/airflow/airflow.db
-
 # Datenbank initialisieren
 airflow db init
 ```
@@ -41,18 +38,7 @@ airflow users create \
     --email admin@example.com
 ```
 
----
-
-## 5. Anpassungen in airflow.cfg
-
-```ini
-# Öffne airflow.cfg und passe folgenden Eintrag an:
-dags_folder = /Users/tsimsek/airflow/dags  # Pfad zwingend anpassen
-```
-
----
-
-## 6. Airflow Webserver und Scheduler starten
+## 5. Airflow Webserver und Scheduler starten
 
 **Terminal 1:**
 
@@ -68,7 +54,7 @@ airflow scheduler
 
 ---
 
-## 7. Airflow UI öffnen
+## 6. Airflow UI öffnen
 
 ```text
 http://localhost:8080
