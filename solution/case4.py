@@ -101,12 +101,12 @@ with DAG(
         python_callable=create_report
     )
 
-    email_task = EmailOperator(
-        task_id='send_success_email',
-        to='your.email@example.com',
-        subject='🚀 Airflow Case4 Report abgeschlossen',
-        html_content="<p>ETL-Pipeline erfolgreich durchgelaufen. Der Report ist verfügbar.</p>"
-    )
+    #email_task = EmailOperator(
+    #    task_id='send_success_email',
+    #    to='your.email@example.com',
+    #    subject='🚀 Airflow Case4 Report abgeschlossen',
+    #    html_content="<p>ETL-Pipeline erfolgreich durchgelaufen. Der Report ist verfügbar.</p>"
+    #)
 
     # Ablauf definieren
     [wait_for_taxi >> load_taxi, wait_for_zone >> load_zone] >> join_data

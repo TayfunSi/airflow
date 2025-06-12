@@ -34,7 +34,7 @@ from utils import case4_join_taxi_with_zones, case4_check_data_quality
 base_dir = os.path.dirname(os.path.abspath(__file__))
 
 # TODO: Definiere hier Pfade zu Rohdaten und Verzeichnis für Verarbeitete Dateien
-taxi_file = os.path.join(base_dir, "______")             # neue Datei heißt updated_taxi_data.parquet
+taxi_file = os.path.join(base_dir, "______")             # neue Datei heißt taxi_data_today.parquet
 zone_file = os.path.join(base_dir, "______")             # neue Datei heißt updated_zones.csv
 processed_dir = os.path.join(base_dir, "______")         # Daten sollen in processed
 os.makedirs(processed_dir, exist_ok=True)
@@ -98,7 +98,7 @@ with DAG(
         df = ______
         
         # 2. Gruppiere nach Zone, aggregiere nach anzahl "trip_distance" und durchschnitt "total_amount"
-        result = df.groupby(____).agg(
+        result = _____(____).agg(
             fahrten_anzahl=(_______),
             durchschnittspreis=(_______)
         ).reset_index()
