@@ -124,7 +124,7 @@ with DAG(
     #                    Nach dem Join erfolgt der Qualitycheck. Anschließend wird ein Report erstellt.
     #                    Darauf folgt die Mail, den Task dazu auskommentieren.
     # 
-    #       Tipp: Parallel laufende Jobs in eckige Klammern setzen. :)
+    #       Tipp: Parallel laufende Jobs beachten. :)
 
 
     ___________________________
