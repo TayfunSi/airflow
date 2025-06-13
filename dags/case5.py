@@ -86,4 +86,4 @@ with DAG(
 
     # Task-Anordnung: Die Funktion wird erst aufgebaut, wenn BEIDE Files da sind, und das unabhängig voneinander :)
 
-    [wait_for_taxi, wait_for_zone] >> report_task
+    ____
