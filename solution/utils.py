@@ -136,3 +136,9 @@ def case4_check_data_quality(**kwargs):
             print(f"   ↪ {err}")
     else:
         print("✅ Datenqualität in Ordnung.")
+
+
+def case5_join_all_data(taxi_path, zone_path):
+    taxi = pd.read_parquet(taxi_path)
+    zones = pd.read_csv(zone_path)
+    return taxi.merge(zones, how="left", left_on="PULocationID", right_on="LocationID")
