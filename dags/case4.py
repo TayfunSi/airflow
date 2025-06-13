@@ -54,26 +54,23 @@ with DAG(
 ) as dag:
 
     # TODO: Warte auf Taxi-Datei.
-    #       Welcher Sensor? Oben anschließend importieren.
     #       Prüfung alle 30 Sekunden mit rescheduling, maximal 60 Minuten.   
     wait_for_taxi = ______(
         ___
     )
 
     # TODO: Warte auf Zone-Datei.
-    #       An wait_for_taxi orientieren.
+    #       
     _____
 
-    # TODO: Lade Taxi-Daten in processed Ordner (Parquet)
-    #       Hier Taxi-Parquet lesen und speichern
-    #       Tipp: read_parquet, to_parquet
+    # TODO: Hier Taxi-Parquet lesen und in processed Ordner speichern
     #       Zielordner: (os.path.join(processed_dir, "taxi_loaded.parquet"), index=False)
     #       pass entfernen
     def load_taxi_data(**kwargs):
         
         pass
     
-    # TODO: Benötigen Operator und die zu nutzende Funktion.
+    # TODO: Task definieren.
     load_taxi = _______
 
     # TODO: Lade Zonendaten in processed Ordner (CSV)
@@ -82,7 +79,7 @@ with DAG(
 
         pass
 
-    # TODO: analog load_taxi
+    # TODO: Task definieren.
     load_zone = _______
 
     # TODO: Join Taxi- und Zone-Daten mit ausgelagerter join-Funktion
